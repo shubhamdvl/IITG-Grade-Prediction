@@ -1,10 +1,3 @@
-# Grade-Prediction
-Anyone who is  planning the semester but don't know how that will it affect their grades here we come up with our project to help them decide.
-Our project was on analyzing all these features and finding their correlation with each other , followed by prediction of the CPI. We had collected the Data through
-a survey consisting of 40 questions.This data was further cleaned by using different techniques and finally cleaned data was used for further analysis and prediction.
-Then we work upon the Model part here the cleaned dataset after preprocessing was then fed into multiple machine learning algorithms so as to generate the best possible score. Many functions were also used in the process which aided us in choosing the best possible features for prediction and improving the model.
-
- Further the testing of the model was done on various evaluation metrics which ended with satisfactory results.
-
-At Last we deployed the model using flask.
+# IITG Grade-Prediction
+A machine-learning based model deployed onFlask which predicts the grade of a student at IIT Guwahati. Trained the model using Ridge Regression and increased the R2 Score from 0.05 to 0.33 despite having a small dataset of 300 students, collected via offline survey consisting 40+ personal questions
 
